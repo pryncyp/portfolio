@@ -100,7 +100,7 @@ p {
   box-shadow: var(--box-shadow);
 }
 
-@media (max-width: 600px) h1, h3 {
-  text-align: left;
-  font-size: 12px;
-}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 12px;
+  }
