@@ -1,7 +1,7 @@
 :root {
   --main-color: #eb34eb;
   --secondary-color: #e3ace3;
-  --border-radius: 40px;
+  --border-radius: 20px;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
