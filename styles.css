@@ -1,6 +1,7 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --main-color: #eb34eb;
+  --secondary-color: #e3ace3;
+  --border-radius: 40px;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
