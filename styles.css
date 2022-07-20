@@ -117,3 +117,27 @@ p {
   background: var(--primary-color) !important;
   box-shadow: var(--box-shadow) !important;
 }
+
+.my-pic {
+  max-width: 200px;
+}
+
+.about p {
+  padding: 5px;
+  font-size: 18px;
+}
+
+.back-home {
+  border: 3px solid #805b80;
+  color: var(--main-color);
+  background-color: var(--secondary-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+:hover.back-home {
+  border: 3px solid #805b80;
+  color: var(--secondary-color);
+  background-color: var(--main-color);
+  border-radius: var(--border-radius);
+}
