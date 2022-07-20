@@ -5,9 +5,9 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
-  margin: 60px auto;
+.whole-website {
   max-width: 800px;
+  margin: auto;
   background-color: rgb(241, 224, 234);
   font-family: "Ubuntu", sans-serif;
 }
@@ -22,6 +22,7 @@ h3 {
 h1 {
   font-size: 96px;
   font-weight: 400;
+  margin: 60px;
 }
 
 h2 {
