@@ -133,6 +133,11 @@ p {
   background-color: var(--secondary-color);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  margin: 10px;
+  display: block;
 }
 
 :hover.back-home {
@@ -140,4 +145,9 @@ p {
   color: var(--secondary-color);
   background-color: var(--main-color);
   border-radius: var(--border-radius);
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  margin: 10px;
+  display: block;
 }
