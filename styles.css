@@ -118,36 +118,40 @@ p {
   box-shadow: var(--box-shadow) !important;
 }
 
-.my-pic {
-  max-width: 200px;
+.about-section {
+  padding: 50px 20px;
 }
 
-.about p {
-  padding: 5px;
-  font-size: 18px;
+.about-section h1 {
+  font-size: 42px;
+  line-height: 40px;
 }
 
-.back-home {
-  border: 3px solid #805b80;
-  color: var(--main-color);
-  background-color: var(--secondary-color);
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
-  text-align: center;
-  font-size: 15px;
-  padding: 5px;
-  margin: 10px;
-  display: block;
+.about-section h2 {
+  font-size: 22px;
+  font-family: var(--default-font-family);
 }
 
-:hover.back-home {
-  border: 3px solid #805b80;
-  color: var(--secondary-color);
-  background-color: var(--main-color);
-  border-radius: var(--border-radius);
-  text-align: center;
-  font-size: 15px;
-  padding: 5px;
-  margin: 10px;
-  display: block;
+.about-section p {
+  font-size: 16px;
+  font-weight: 400;
 }
+
+.about-section-content {
+  margin: 30px;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
