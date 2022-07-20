@@ -1,7 +1,7 @@
 :root {
   --main-color: #eb34eb;
   --secondary-color: #e3ace3;
-  --border-radius: 30px;
+  --border-radius: 20px;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -46,45 +46,18 @@ p {
 .navigation-links {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: 15px;
 }
 
-.contact-me {
-  border: 3px solid #805b80;
-  color: var(--secondary-color);
-  background-color: var(--main-color);
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
-  padding: 20px;
-  margin: 20px;
-}
-.about-me {
-  border: 3px solid #805b80;
+.navigation-links a {
+  border: 1px solid #805b80;
   color: var(--main-color);
   background-color: var(--secondary-color);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
   padding: 20px;
-  margin: 20px;
-}
-
-:hover.about-me {
-  border: 3px solid #805b80;
-  color: var(--secondary-color);
-  background-color: var(--main-color);
-  border-radius: var(--border-radius);
-  padding: 20px;
-  margin: 20px;
-}
-
-:hover.contact-me {
-  border: 3px solid #805b80;
-  color: var(--main-color);
-  background-color: var(--secondary-color);
-  border-radius: var(--border-radius);
-  padding: 20px;
-  margin: 20px;
+  margin: 50px;
 }
 
 .about-paragraphs {
@@ -155,3 +128,4 @@ p {
     text-align: center;
     padding: 0;
   }
+}
