@@ -6,7 +6,6 @@
 }
 
 .whole-website {
-  max-width: 900px;
   margin: auto;
   font-family: "Ubuntu", sans-serif;
 }
@@ -42,7 +41,7 @@ p {
   text-align: center;
 }
 .front-page {
-  padding: 160px 160px;
+  padding: 160px 50px;
   background-color: rgb(241, 224, 234);
   border-radius: var(--border-radius);
 }
