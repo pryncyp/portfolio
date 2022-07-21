@@ -8,7 +8,6 @@
 .whole-website {
   max-width: 800px;
   margin: auto;
-  background-color: rgb(241, 224, 234);
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -43,7 +42,9 @@ p {
   text-align: center;
 }
 .front-page {
-  padding: 160px 50px;
+  padding: 160px 160px;
+  background-color: rgb(241, 224, 234);
+  border-radius: var(--border-radius);
 }
 
 .navigation-links {
@@ -126,19 +127,24 @@ p {
   h2 {
     font-size: 44px;
   }
+}
 
-  .about-section {
-    text-align: center;
-    padding: 0;
-  }
+.about-section {
+  text-align: center;
+  background-color: rgb(241, 224, 234);
+  border-radius: var(--border-radius);
 }
 
 .work-page {
   padding: 260px 50px;
+  background-color: rgb(241, 224, 234);
+  border-radius: var(--border-radius);
 }
 
 .contact-page {
   padding: 80px 50px;
+  background-color: rgb(241, 224, 234);
+  border-radius: var(--border-radius);
 }
 
 .contact-page a {
