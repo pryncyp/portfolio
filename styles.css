@@ -112,16 +112,6 @@ nav li.active a {
   text-decoration: underline;
 }
 
-.primary-link {
-  color: blueviolet !important;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--main-color) !important;
-  box-shadow: var(--box-shadow) !important;
-}
-
 .about-section {
   padding: 50px 20px;
 }
