@@ -3,11 +3,7 @@
   --secondary-color: #e3ace3;
   --border-radius: 20px;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-}
-
-.whole-website {
-  margin: auto;
-  font-family: "Ubuntu", sans-serif;
+  --main-font: "Ubuntu", sans-serif;
 }
 
 h1,
@@ -15,6 +11,7 @@ h2,
 h3 {
   text-align: center;
   margin: 0;
+  font-family: var(--main-font);
 }
 
 h1 {
@@ -63,6 +60,37 @@ p {
   margin: 50px;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 .about-paragraphs {
   display: flex;
   margin: 30px 0;
@@ -75,7 +103,7 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: var(--main-color);
   font-size: 28px;
   text-decoration: none;
 }
@@ -90,7 +118,7 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--primary-color) !important;
+  background: var(--main-color) !important;
   box-shadow: var(--box-shadow) !important;
 }
 
@@ -105,7 +133,7 @@ p {
 
 .about-section h2 {
   font-size: 22px;
-  font-family: var(--default-font-family);
+  font-family: var(--main-font);
 }
 
 .about-section p {
@@ -153,32 +181,26 @@ p {
 
 footer {
   margin: 60px 0;
-}
-
-footer .contact-box {
   background: var(--secondary-color);
-  padding: 30px 120px;
-  border-radius: 10px;
 }
 
-footer .contact-box p {
-  margin: 0;
+footer p {
+  font-size: 30px;
 }
 
 footer .email-link {
   text-decoration: none;
   color: black;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 footer .email-link:hover {
-  color: var(--branding-color);
+  color: var(--main-color);
 }
 
 footer .social-links a {
   margin: 0 20px;
-  color: var(--branding-color);
-  background: var(--secondary-color);
+  color: black;
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
@@ -187,5 +209,5 @@ footer .social-links a {
 
 footer .social-links a:hover {
   color: white;
-  background: var(--branding-color);
+  background: var(--main-color);
 }
