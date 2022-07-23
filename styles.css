@@ -210,3 +210,7 @@ footer .social-links a:hover {
   color: white;
   background: var(--main-color);
 }
+
+.git-info {
+  background: rgb(241, 224, 234);
+}
