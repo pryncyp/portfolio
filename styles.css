@@ -135,7 +135,7 @@ nav li.active a {
   margin: 30px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   h1 {
     font-size: 30px;
     line-height: 36px;
