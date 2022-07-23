@@ -178,9 +178,9 @@ nav li.active a {
   color: gray;
 }
 
-footer {
-  margin: 60px 0;
-  background: var(--secondary-color);
+.contact-me {
+  background-color: var(--secondary-color);
+  padding: 10px;
 }
 
 footer p {
