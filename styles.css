@@ -37,7 +37,7 @@ p {
   line-height: 1.5;
   text-align: center;
 }
-.front-page {
+.hero {
   padding: 160px 50px;
   background-color: rgb(241, 224, 234);
   border-radius: var(--border-radius);
